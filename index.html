@@ -48,6 +48,9 @@
                     <li>
                         <a class="page-scroll" href="#aluno">Aluno</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#contato">Contato</a>
+                    </li>
                 </ul>
             </div>
 
@@ -94,12 +97,42 @@
 
                   <p class="texto-branco sombra texto"><b>e estou aqui a procura
                      de novos conhecimentos no ramo da criação de sites. </b></p>
-                  <p class="texto-branco sombra-texto">Para acessar meu facebook <a target="_blank" href="https://www.facebook.com/yago.fernandes.3975012">clique aqui</a></p>
+                  <p class="texto-branco sombra-texto">Clique aqui para acessar meu <a target="_blank" href="https://www.facebook.com/yago.fernandes.3975012">facebook</a></p>
                 </div>
             </div>
         </div>
     </section>
 
+
+    <section id="contato">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center" class="section-heading">Contatos</h2>
+            <hr class="light">
+          </div>
+            <div class="col-sm-12">
+              <form>
+          <p>
+            <label for="nomeDigitado">NOME:</label>
+            <input class="form-control" type="text" id="nomeDigitado">
+          </p>
+          <p>
+            <label for="emailDigitado">E-MAIL:</label>
+            <input class="form-control" type="email" id="emailDigitado">
+          </p>
+          <p>
+            <label for="mensagemDigitada">MENSAGEM</label>
+            <textarea class="form-control" id="mensagemDigitada"></textarea>
+          </p>
+          <p>
+            <input onclick="enviar()" class="btn btn-primary" type="submit" value="Enviar">
+          </p>
+        </form>
+            </div>
+        </div>
+      </div>
+    </section>
     <footer>
         <div class="container">
             <div class="row">
@@ -107,6 +140,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/arquivo.js"></script>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
