@@ -48,7 +48,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #fcfbf7;
 }
 h1,
 h2,
@@ -59,21 +59,21 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #7C5134
+  color: rgb(255, 254, 254)
 }
 .img-centered {
   margin: 0 auto;
 }
-.bg-light-yellow {
-  background-color: #e1b12c;
+.bg-light-blue {
+  background-color: #2c8ae1;
 }
 .bg-darkest-gray {
-  background-color: #7C5134;
+  background-color: rgb(8, 10, 131);
 }
 .btn-primary {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #12067a;
+  border-color: #12067a;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -84,8 +84,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #12067a;
+  border-color: #12067a;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -107,17 +107,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #12067a;
+  border-color: #12067a;
 }
 .btn-primary .badge {
-  color: #fed136;
+  color: #12067a;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #12067a;
+  border-color: #12067a;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -131,8 +131,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #12067a;
+  border-color: #12067a;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -154,15 +154,15 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #12067a;
+  border-color: #12067a;
 }
 .btn-xl .badge {
-  color: #fed136;
+  color: #12067a;
   background-color: white;
 }
 .navbar-custom {
-  background-color: #7C5134;
+  background-color: #12067a;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -173,14 +173,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: #12067a;
 }
 .navbar-custom .navbar-collapse {
-  border-color: rgba(255, 255, 255, 0.02);
+  border-color: rgba(247, 243, 243, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #12067a;
+  border-color: #12067a;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -188,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #12067a;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -199,18 +199,18 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fed136;
+  color: #12067a;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #fed136;
+  background-color: #12067a;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: #12067a;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -234,16 +234,16 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width: 768px) {
   .navbar-custom.affix {
     /* #7C5134*/
-    background-color: #7C5134;
+    background-color: #fdfdfd;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
-    color: #fed136;
+    color: #12067a;
   }
 }
 header {
-  background-image: url('../img/foto.jpg');
+  background-image: url('../img/computacao.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -330,7 +330,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: r#12067a;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -438,7 +438,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  background-color: #12067a;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -593,7 +593,7 @@ section#contact .form-group textarea.form-control {
   height: 236px;
 }
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #12067a;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
@@ -647,7 +647,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #7C5134;
+  background-color: #12067a;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -662,7 +662,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: #12067a;
 }
 .btn:focus,
 .btn:active,
@@ -721,7 +721,7 @@ ul.social-buttons li a:active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #7C5134;
+  background-color: #12067a;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -732,7 +732,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #7C5134;
+  background-color: #12067a;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -746,11 +746,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #fed136;
+  background: #12067a;
 }
 ::selection {
   text-shadow: none;
-  background: #fed136;
+  background: #12067a;
 }
 img::selection {
   background: transparent;
@@ -759,5 +759,9 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #fed136;
+  webkit-tap-highlight-color: #12067a;
+}
+
+.black{
+  color: black;
 }
